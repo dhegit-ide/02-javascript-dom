@@ -1,0 +1,92 @@
+/* Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .shopList__input {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.form-control:focus {
+  border-color: #313741;
+  box-shadow: 0 0 0 0.05rem rgba(33, 37, 41, 0.5);
+}
+
+.btn-dark:focus,
+.shopList__list:hover {
+  border-color: #313741;
+  box-shadow: 0 0 0 0.05rem rgba(33, 37, 41, 0.5);
+}
+
+.shopList__container {
+  display: flex;
+}
+
+.shopList__list {
+  min-width: 30%;
+  padding: 10px;
+
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.shopList__list:hover {
+  box-shadow: 0 0 0 0.05rem rgba(33, 37, 41, 0.5);
+}
+
+.shopList {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 20px;
+  padding: 10px 20px;
+
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.shopList:hover {
+  background: #212529;
+  color: #fff;
+}
+
+.shopList__item {
+  padding: 0.5rem;
+}
+
+.shopList__item::marker {
+  padding: 0;
+}
+
+.trash__btn {
+  background: none;
+  color: #000;
+  border: none;
+
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.trash__btn:hover {
+  background: #212529;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.bi-trash {
+  pointer-events: none;
+}

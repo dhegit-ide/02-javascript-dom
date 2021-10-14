@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List | Dhea Gita</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-3" href="#">
+            <h3 class="lh-1">Dhegit</h3>
+            <h6 class="lh-1" style="letter-spacing: 4px">Project</h6>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container">
+      <h1 class="pt-5 pb-3">Shopping List</h1>
+      <p class="lh-lg">Shopping list ini dibuat untuk memudahkan kita membeli barang-barang yang diinginkan agar tidak lupaaa. Ayo buat daftar belanjanya sekarang di bawah!</p>
+    </section>
+
+    <section class="container input-group my-5">
+      <input type="text" class="form-control shopList__input" placeholder="Masukkan nama barangmu" aria-label="Masukkan nama barangmu" />
+      <button class="shopList__button btn btn-dark" type="button" id="button-addon2"><i class="bi bi-plus-lg"></i></button>
+    </section>
+
+    <section class="container my__lists">
+      <h2 class="my-5">My lists</h2>
+      <div class="shopList__container"></div>
+      <ul class="shopList__list" type="circle"></ul>
+    </section>
+
+    <!-- My JavaScript -->
+    <script src="myJS.js"></script>
+  </body>
+</html>
